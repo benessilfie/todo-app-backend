@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 dotenv.config();
 
-//created an instace of the express server
+//created an instace of the express serverds
 const app = express();
 app.use(express.json());
 
