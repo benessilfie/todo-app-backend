@@ -12,7 +12,7 @@ app.use(express.json());
 const PORT = process.env.PORT?? 6800;
 
 app.get('/', (req, res)=>{
-    res.send("Hello World!, This is Practice");
+    res.send("Hello World!, This is my Backend");
 });
 
 //Connect to MongoAtlas Database#
